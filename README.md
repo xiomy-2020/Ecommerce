@@ -1,3 +1,6 @@
+## ** En la carpeta Recursos se encuentra la lista de Collections de la Base de Datos y la Collections de Postman
+
+
 ### Se ha implementado la base de datos "EcommerceDB"  que consiste en varias colecciones interrelacionadas para gestionar un sistema de Ecommerce. A continuación, se describen las colecciones y las relaciones entre ellas:
 
 ## Categorías (id, nombre): 
@@ -26,6 +29,3 @@ En resumen, la base de datos "EcommerceDB" está diseñada para gestionar produc
 
 
 ### En este proyecto, hemos implementado el patrón de diseño de Inyección de Dependencias (DI) para gestionar las dependencias entre los componentes del sistema. La Inyección de Dependencias es una técnica de diseño que promueve la modularidad, la flexibilidad y la mantenibilidad del código al invertir el control sobre la creación y suministro de objetos requeridos.
-
-
-#### En la carpeta Recursos se encuentra la lista de Collections de la Base de Datos y la Collections de Postman
