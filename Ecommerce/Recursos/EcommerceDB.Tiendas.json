@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "64f0bb88770820597a2979cf"
+  },
+  "Nombre": "Hooks Tienda Deportiva",
+  "Nit": "50040012-2"
+},
+{
+  "_id": {
+    "$oid": "64f0e51a075c0ef65e15141a"
+  },
+  "Nombre": "Mercado Persa",
+  "Nit": "100500401-1"
+}]

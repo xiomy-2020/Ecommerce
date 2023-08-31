@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "64f0deeb9929a7a456b725ce"
+  },
+  "Nombre": "Alimentos Perecederos",
+  "Cantidad": 50,
+  "FechaIngreso": {
+    "$date": "2023-08-31T18:40:40.947Z"
+  },
+  "CategoriaId": {
+    "$oid": "64f0bf547217f9a7aa35c968"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f0dfc10173c139953d5b73"
+  },
+  "Nombre": "Portatiles",
+  "Cantidad": 10,
+  "FechaIngreso": {
+    "$date": "2023-08-31T18:44:24.464Z"
+  },
+  "CategoriaId": {
+    "$oid": "64f0c1fdd83088199f4d39a3"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f0dfd30173c139953d5b74"
+  },
+  "Nombre": "Comidas Rapidas",
+  "Cantidad": 50,
+  "FechaIngreso": {
+    "$date": "2023-08-31T18:53:37.784Z"
+  },
+  "CategoriaId": {
+    "$oid": "64f0bf547217f9a7aa35c968"
+  }
+}]

@@ -1,0 +1,737 @@
+{
+	"info": {
+		"_postman_id": "d8f0538c-b30b-4c6e-9a79-873c609ceef4",
+		"name": "Ecommerce -Categoria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19410926",
+		"_collection_link": "https://crimson-escape-12590.postman.co/workspace/Nuevo-Workspace~cf37f04d-4a6a-49a7-9e93-f7fe2b169f80/collection/19410926-d8f0538c-b30b-4c6e-9a79-873c609ceef4?action=share&source=collection_link&creator=19410926"
+	},
+	"item": [
+		{
+			"name": "GetCategoria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7154/api/Categoria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveCategoria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Utiles Escolares\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Categoria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCategoriaPorID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7154/api/Categoria/64f0bb05770820597a2979cd",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Categoria",
+						"64f0bb05770820597a2979cd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCategoria",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7154/api/Categoria?id=64f0bf547217f9a7aa35c968",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Categoria"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "64f0bf547217f9a7aa35c968"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCategoria",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"64f0bb05770820597a2979cd\",\r\n  \"nombre\": \"Ropa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Categoria/64f0bb05770820597a2979cd",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Categoria",
+						"64f0bb05770820597a2979cd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProducto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7154/api/Producto",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveProducto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Alimentos Perecederos\",\r\n  \"cantidad\": 50,\r\n  \"fechaIngreso\": \"2023-08-31T18:40:40.947Z\",\r\n  \"categoriaId\": \"64f0bf547217f9a7aa35c968\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/producto",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductoPorID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7154/api/Producto/64f0bb50770820597a2979ce",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Producto",
+						"64f0bb50770820597a2979ce"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProducto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"64f0bb50770820597a2979ce\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Producto?id=64f0bb50770820597a2979ce",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Producto"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "64f0bb50770820597a2979ce"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProducto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"64f0bb50770820597a2979ce\",\r\n        \"nombre\": \"Blusas Damas y Niñas\",\r\n        \"cantidad\": 15,\r\n        \"fechaIngreso\": \"2023-08-31T16:09:27.02Z\",\r\n        \"categoriaId\": \"64f0bb05770820597a2979cd\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Producto/64f0bb50770820597a2979ce",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Producto",
+						"64f0bb50770820597a2979ce"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTienda",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7154/api/Tienda",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Tienda"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveTienda",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \r\n  \"nombre\": \"Mercado Persa\",\r\n  \"nit\": \"100500401-1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/tienda",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"tienda"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTiendaPorID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64f0e46c075c0ef65e151419\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Tienda/64f0e46c075c0ef65e151419",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Tienda",
+						"64f0e46c075c0ef65e151419"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteTienda",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"64f0bb50770820597a2979ce\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Tienda?id=64f0e46c075c0ef65e151419",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Tienda"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "64f0e46c075c0ef65e151419"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTienda",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64f0e46c075c0ef65e151419\",\r\n    \"nombre\": \"Mercados\",\r\n    \"nit\": \"100500401-2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Tienda/64f0e46c075c0ef65e151419",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Tienda",
+						"64f0e46c075c0ef65e151419"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsuario",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Usuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVenta",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Usuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveVenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"fechaVenta\": \"2023-08-31T16:09:27.02Z\",\r\n        \"usuarioId\": \"64f0e36a3871213c3a7cfc4a\",\r\n        \"productoId\": \"64f0deeb9929a7a456b725ce\",\r\n        \"tiendaId\": \"64f0e51a075c0ef65e15141a\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/venta",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"venta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVentaPorID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64f0e85e945660d1a9af1f50\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Venta/64f0e85e945660d1a9af1f50",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Venta",
+						"64f0e85e945660d1a9af1f50"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteVenta",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"64f0e627075c0ef65e15141b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Usuario?id=64f0e627075c0ef65e15141b",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Usuario"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "64f0e627075c0ef65e15141b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVenta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"64f0e85e945660d1a9af1f50\",\r\n   \"fechaVenta\": \"2023-08-31T16:09:27.02Z\",\r\n    \"usuarioId\": \"64f0e36a3871213c3a7cfc4a\",\r\n    \"productoId\": \"64f0deeb9929a7a456b725ce\",\r\n    \"tiendaId\": \"64f0e51a075c0ef65e15141a\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Venta/64f0e85e945660d1a9af1f50",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Venta",
+						"64f0e85e945660d1a9af1f50"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"nombre\": \"Luisa \",\r\n  \"direccion\": \"Manizales\",\r\n  \"cedula\": \"30405010\",\r\n  \"correo\": \"lulu@gmail.com\",\r\n  \"tiendaId\": \"64f0e51a075c0ef65e15141a\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/usuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsuarioPorID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64f0e627075c0ef65e15141b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Usuario/64f0e627075c0ef65e15141b",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Usuario",
+						"64f0e627075c0ef65e15141b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUsurio",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"64f0e627075c0ef65e15141b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Usuario?id=64f0e627075c0ef65e15141b",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Usuario"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "64f0e627075c0ef65e15141b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUsuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"nombre\": \"Luisa Fer \",\r\n  \"direccion\": \"Manizales\",\r\n  \"cedula\": \"30405010\",\r\n  \"correo\": \"lulu@gmail.com\",\r\n  \"tiendaId\": \"64f0e51a075c0ef65e15141a\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7154/api/Usuario/64f0e627075c0ef65e15141b",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7154",
+					"path": [
+						"api",
+						"Usuario",
+						"64f0e627075c0ef65e15141b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

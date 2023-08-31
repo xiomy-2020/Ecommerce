@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "64f0bb05770820597a2979cd"
+  },
+  "Nombre": "Ropa"
+},
+{
+  "_id": {
+    "$oid": "64f0bf547217f9a7aa35c968"
+  },
+  "Nombre": "Cocina"
+},
+{
+  "_id": {
+    "$oid": "64f0c1fdd83088199f4d39a3"
+  },
+  "Nombre": "Computadores"
+},
+{
+  "_id": {
+    "$oid": "64f0d07de17444bdbc8c90fa"
+  },
+  "Nombre": "Calzado"
+},
+{
+  "_id": {
+    "$oid": "64f0d2f0c32a8de98c133f81"
+  },
+  "Nombre": "Utiles Escolares"
+},
+{
+  "_id": {
+    "$oid": "64f0f367717f931631c3cb75"
+  },
+  "Nombre": "Zapatos"
+},
+{
+  "_id": {
+    "$oid": "64f0f8fefe20d870d3822df7"
+  },
+  "Nombre": "Joyas"
+}]
